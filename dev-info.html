@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+    <title>Hidden Gems Of Modern India!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header3">
+        <nav>
+        <a href="index.html"><img src="images/Icon.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="project.html">PROJECT</a></li>
+                <li><a href="social%20media%20post.html">SOCIAL-MEDIA POST</a></li>
+                <li><a href="dev-info.html">DEVLOPER-INFORMATION</a></li>
+                <li><a href="contact%20me.html">CONTACT ME</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    
+<!---------- Devloper Information ---------->
+    
+    <section class="dev info">
+        <h1>WEBSITE-DEVLOPER INFO</h1>
+        <h4>Thanks for visiting my website!</h4>
+        <p>Hi, I'm Kunal. I'm a high school student. This is my first website after some practice web pages I made. I know C, Python, Lua, HTML, CSS, and I am still learning Javascript. I made this website for my social science project. Also, thanks to all my friends who helped me make this website a success. Without them, I would have been stuck with errors and given up. They supported and helped me a lot while making this website. Hi ma'am, if you are reading this. Please also rate my project from 1–10.<br>Have a good day/night all!</p>
+
+    </section>
+<!---------- Footer ---------->
+    <section class="footer">
+    <h4>Check Out My-</h4>
+    <div class="icons">
+        
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube"></i>
+        
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> By Kunal Jain!</p>
+    </section>
+
+<!----- JavaScript For Toggle Menu ----->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+</body>
+</html>
